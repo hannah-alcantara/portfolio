@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -18,6 +19,20 @@ function App() {
           Learn React
         </a>
       </header>
+=======
+import Hero from './components/Hero';
+import Navigation from './components/Navigation';
+import Projects from './components/Projects';
+
+
+
+function App() {
+  return (
+    <div>
+        <Navigation />
+        <Hero />
+        <Projects />
+>>>>>>> 351353a6a5aacf53067ecadecf98fd3bede866ac
     </div>
   );
 }
