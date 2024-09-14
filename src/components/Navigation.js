@@ -1,13 +1,13 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
-function Navigation() {
+export function Navigation() {
   return (
-    <nav className='p-8 flex justify-center gap-5'>
-        <a href="">Work</a>
-        <a href="">About</a>
-        <a href="">Contacts</a>
-    </nav>
-  )
+    <div className='m-8 font-spaceGrotesk'>
+      <nav className='flex justify-center gap-6'>
+        <Link to=''>Work</Link>
+        <Link to='/about'>About</Link>
+        <Link to=''>Contacts</Link>
+      </nav>
+    </div>
+  );
 }
-
-export default Navigation
