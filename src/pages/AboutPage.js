@@ -26,6 +26,8 @@ export const AboutPage = () => {
       </div>
       <hr className='mx-8 h-px bg-light-purple border-0' />
       <JobItem />
+      <hr className='mx-8 h-px bg-light-purple border-0' />
+
     </div>
   );
 };

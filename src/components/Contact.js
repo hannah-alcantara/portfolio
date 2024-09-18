@@ -3,7 +3,7 @@ import { Title } from "./Title";
 export function Contact() {
   return (
     <div>
-      <section className='p-8'>
+      <section id="contact" className='p-8'>
         <div className='text-center mb-8'>
           <Title text='Contact Me' />
           <p className='font-robotoMono text-sm leading-loose text-slate-200'>
