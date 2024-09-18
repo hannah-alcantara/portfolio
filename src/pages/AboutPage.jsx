@@ -1,4 +1,5 @@
 import Image from "../assets/images/profile-5.jpg";
+import { Education } from "../components/Education";
 import { JobItem } from "../components/JobItem";
 
 export const AboutPage = () => {
@@ -27,7 +28,7 @@ export const AboutPage = () => {
       <hr className='mx-8 h-px bg-light-purple border-0' />
       <JobItem />
       <hr className='mx-8 h-px bg-light-purple border-0' />
-
+      <Education />
     </div>
   );
 };
