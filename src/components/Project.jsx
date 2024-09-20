@@ -4,7 +4,7 @@ import { Title } from "./Title";
 export function Project() {
   return (
     <>
-      <main className='p-8'>
+      <main className='p-8 relative z-10'>
         <Title text='Projects' />
         {projects.map((project) => (
           <div className='grid [&:not(:last-child)]:mb-16'>
@@ -20,7 +20,6 @@ export function Project() {
           </div>
         ))}
       </main>
-      <hr className='mx-8 h-px bg-light-purple border-0' />
     </>
   );
 }

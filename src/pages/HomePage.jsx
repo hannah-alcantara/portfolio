@@ -6,8 +6,11 @@ export const HomePage = () => {
   return (
     <>
       <Hero />
+      <hr />
       <Project />
+      <hr />
       <Contact />
+      <hr />
     </>
   );
 };
