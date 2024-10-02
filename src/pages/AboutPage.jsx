@@ -6,7 +6,7 @@ import { Contact } from "./../components/Contact";
 
 export const AboutPage = () => {
   return (
-    <div>
+    <>
       <Profile />
       <hr />
       <JobItem />
@@ -17,6 +17,6 @@ export const AboutPage = () => {
       <hr />
       <Contact />
       <hr />
-    </div>
+    </>
   );
 };

@@ -36,10 +36,10 @@ export const Skills = () => {
   ];
 
   return (
-    <div className='p-8'>
+    <div className='py-8 pr-[0.7rem]'>
       <Title text='Skills' />
       <div className='grid gap-6'>
-        <div className='max-w-full px-5 py-6 bg-bright-purple rounded-lg drop-shadow-lg'>
+        <div className='max-w-full px-5 py-6 bg-[#202030] shadow-[10px_12px_0_0_rgb(66,35,159)] border border-white rounded-lg drop-shadow-lg'>
           <p className='text-2xl font-spaceGrotesk font-medium mb-4'>
             Languages & Frameworks
           </p>
@@ -54,7 +54,8 @@ export const Skills = () => {
             ))}
           </ul>
         </div>
-        <div className='max-w-full px-5 py-6 bg-[#202030] shadow-[10px_10px_0_0_rgb(66,35,159)] border border-white rounded-lg drop-shadow-lg'>
+
+        <div className='max-w-full px-5 py-6 bg-[#202030] shadow-[10px_12px_0_0_rgb(66,35,159)] border border-white rounded-lg drop-shadow-lg'>
           <p className='text-2xl font-spaceGrotesk font-medium mb-4'>Tools</p>
           <ul className='flex flex-wrap gap-3'>
             {tools.map((item, index) => (
@@ -67,7 +68,8 @@ export const Skills = () => {
             ))}
           </ul>
         </div>
-        <div className='max-w-full px-5 py-6 bg-bright-purple rounded-lg drop-shadow-lg'>
+
+        <div className='max-w-full px-5 py-6 bg-[#202030] shadow-[10px_12px_0_0_rgb(66,35,159)] border border-white rounded-lg drop-shadow-lg'>
           <p className='text-2xl font-spaceGrotesk font-medium mb-4'>
             Interests
           </p>

@@ -3,7 +3,7 @@ import work from "../work.json";
 
 export function JobItem() {
   return (
-    <div className='p-8'>
+    <div className='py-8'>
       <Title text='Work' />
       {work.map((item, index) => (
         <div key={index} className='mb-8'>

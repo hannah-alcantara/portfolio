@@ -2,7 +2,7 @@ import { Title } from "./Title";
 
 export function Education() {
   return (
-    <div className='p-8'>
+    <div className='py-8'>
       <Title text='Education' />
       <div>
         <h3 className='font-spaceGrotesk font-bold text-xl'>

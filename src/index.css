@@ -14,7 +14,7 @@ body {
 }
 
 hr {
-  margin: 0px 32px;
+  /* margin: 0px 32px; */
   height: 1px;
   background-color: #8a80f9;
   border-width: 0px;

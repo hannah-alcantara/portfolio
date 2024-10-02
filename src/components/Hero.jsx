@@ -1,10 +1,8 @@
-import { Backdrop } from "./Backdrop";
-
 export function Hero() {
   return (
     <>
-      <header className='px-8 py-12'>
-        <Backdrop className='top-[50%] translate-x-[-70%] translate-y-[-50%]' />
+      <div className='py-12'>
+        {/* <div className='w-[420px] h-[300px] bg-[#42239F] rounded-[100%] blur-[90px] absolute z-1 top-[50%] translate-x-[-50%] translate-y-[-50%]' /> */}
         <div className='relative z-10'>
           <h1 className='text-5xl font-brastika font-bold leading-relaxed'>
             Hello, I'm{" "}
@@ -21,7 +19,7 @@ export function Hero() {
             love.
           </h2>
         </div>
-      </header>
+      </div>
     </>
   );
 }
