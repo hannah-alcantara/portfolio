@@ -2,7 +2,7 @@ import Image from "../assets/images/profile-5.jpg";
 
 export const Profile = () => {
   return (
-    <div className='py-8'>
+    <div className='py-8 md:py-12'>
       <div className='flex justify-center pb-12'>
         <div className='shadow-[10px_10px_0_0_rgb(66,35,159)] rounded-lg w-60'>
           {/* shadow-[10px_10px_0_0_rgb(66,35,159),10px_10px_0_2px_white] */}

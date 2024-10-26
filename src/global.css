@@ -13,14 +13,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-hr {
-  /* margin: 0px 32px; */
-  height: 1px;
-  background-color: #8a80f9;
-  border-width: 0px;
+@layer base {
+  hr {
+    @apply h-px bg-light-purple border-0;
+  }
 }
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 } */
