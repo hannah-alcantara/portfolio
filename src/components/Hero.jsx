@@ -1,5 +1,5 @@
 import Star from "../assets/images/stars.png";
-import Spark from "../assets/images/star-wide.png";
+
 
 export function Hero() {
   return (
